@@ -1,0 +1,297 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/pexels-photo-53265.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 0px;
+}
+
+.section-heading-spacer {
+    float: left;
+    margin-top: 8px;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons
+        float: left;
+        margin-top: 15px;
+
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+/*my cold*/
+
+.aboutme{
+  height:  462px;
+  background-color: #272D35;
+  color: white;
+}
+
+
+.aboutme-lead {
+  word-wrap: break-word;
+}
+ul{
+  margin-left: -20px;
+}
+.img-responsive:hover{
+      -webkit-transition: opacity 0.5s linear;
+      -moz-transition: opacity 0.5s linear;
+      -o-transition: opacity 0.5s linear;
+      transition: opacity 0.5s linear;
+      opacity:0.5;
+}
+
+
+
+
+
+/*time-line*/
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-bottom: 1em;
+}
+#cd-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+
+/*time*/
+.cd-timeline-content{
+  margin-left: 3em;
+}
+
+.cd-timeline-img{
+  margin-left: -18px;
+  width: 80px;
+
+  background: #f8f8f8;
+}
+.cd-timeline-img p{
+  text-align:center;
+}
+
+.cd-timeline-block {
+  position: relative;
+  margin: 2em 0;
+}
+.cd-timeline-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-timeline-block:first-child {
+  margin-top: 0;
+}
+.cd-timeline-block:last-child {
+  margin-bottom: 0;
+}
+/*time-line_end*/
+.school-img .f456f{
+  height: 100px;
+  background: ;
+  margin-bottom: 42px;
+}
+.school-img .f456{
+  height: 100px;
+  background: #f8f8f8;
+  margin-bottom: 142px;
+}
+.school-img{
+  height: 870px;
+  width: 100%;
+  background: url(../img/bg-school.PNG) fixed no-repeat left top ;
+  margin-top: 30px;
+}
+/*timelineleft-end*/
+.skill{
+  width: auto;
+  margin:0 auto;
+  margin-bottom: 100px;
+
+}
+.skill .section-heading{
+    text-align: center;
+}
+.skill hr{
+  margin-top: 8px;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.svg-all{
+  width: 200px;
+  height: 300px;
+  text-align: center;
+}
+.percent {
+    height: 50px;
+    text-align: center;
+    color: #00a1ad;
+    vertical-align: middle;
+
+    /*position: relative;*/
+}
+.svg {
+    width: 200px;
+    height: 200px;
+    margin-top: -125px;
+    /*position: absolute;*/
+}
